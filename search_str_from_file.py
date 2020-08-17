@@ -17,7 +17,7 @@ def search_string_in_file(file_name, string_to_search):
     
     return list_of_results
 
-matched_lines = search_string_in_file('filename.txt', 'madhu')
+matched_lines = search_string_in_file('filename.txt', 'madhu') # give the filename and string you want to search for
 
 print('Total Matched lines : ', len(matched_lines))
 
