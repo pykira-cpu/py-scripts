@@ -1,3 +1,3 @@
-# py scripts
+# Python scripting
 
-Few interesting python scripts for fun and daily-use basis.
+### Games, GUI, Web API and Automation using Python3
