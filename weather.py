@@ -4,7 +4,7 @@ while True:
     ''' I generated my own API key by signing in openweather website.
      Get your own API id and replace it with 'appid' value.
      Also, the last 3 characters in the api address should remain same which is '&q='. 
-     q is the parameter for the city name in URL.
+     q is the parameter for the city name in URL
      '''
 
     API_address = 'http://api.openweathermap.org/data/2.5/weather?appid=deb9681aedaab7e97e4bba271f6a9b7e&q='
