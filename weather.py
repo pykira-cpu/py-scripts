@@ -9,9 +9,9 @@ while True:
 
     API_address = 'http://api.openweathermap.org/data/2.5/weather?appid=deb9681aedaab7e97e4bba271f6a9b7e&q='
     city = input("City: ")
-    url = API_address + city.strip()
+    url = API_address + city.strip() # strip() removes spaces in the beginning and end
 
-    json_data = requests.get(url).json()
+    json_data = requests.get(url).json() 
 
     weather_description = json_data['weather'][0]['description']
     current_temperature = json_data['main']['temp']
